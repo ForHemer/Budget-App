@@ -2,6 +2,7 @@
 
 **Budget App** App is a mobile web application where users can manage their budget.
 
+![Screenshot from 2022-06-30 13-54-42](https://user-images.githubusercontent.com/88809610/176749169-6e8bc613-3e88-482a-a55e-93d78ee6bb4d.png)
 
   
 
@@ -19,7 +20,7 @@
 
 
 ## Loom video
-[Loom video link]()
+[Loom video link](https://www.loom.com/share/1047a3c0b7684a098084574a215e493e)
 
 
 # Getting Started
