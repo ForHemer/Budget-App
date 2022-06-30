@@ -1,22 +1,12 @@
-<div id="<%= dom_id expense %>">
-  <p>
-    <strong>Name:</strong>
-    <%= expense.name %>
-  </p>
+<div id="<%= dom_id expense %>" class="w-4/5">
 
-  <p>
-    <strong>Amount:</strong>
-    <%= expense.amount %>
-  </p>
-
-  <p>
-    <strong>User:</strong>
-    <%= expense.user_id %>
-  </p>
-
-  <p>
-    <strong>Group:</strong>
-    <%= expense.group_id %>
-  </p>
-
+  <div class="flex justify-between">
+  <div class="">
+    <div><p><%= @group_id.name %>:</p> </div>
+    <div> <p><%= expense.name %></p> </div>
+   </div>    
+    <div class="w-1/4">
+    <p>$ <%= expense.amount %></p>
+    </div>
+  </div>
 </div>
