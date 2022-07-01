@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'Categories', type: :feature do
   describe 'Categories' do
     before(:each) do
-      @user = User.create! name: 'User Name', password: '123456', email: 'user@email.com', confirmed_at: Time.now
+      @user = User.create! name: 'User Name', password: '123456', email: 'user@email.com'
       Group.create! name: 'group', user_id: @user.id, icon: 'Education'
 
       visit '/users/sign_in'
